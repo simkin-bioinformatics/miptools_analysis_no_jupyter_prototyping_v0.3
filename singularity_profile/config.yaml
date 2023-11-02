@@ -1,0 +1,15 @@
+use-singularity: True
+singularity-args: "-B /media/alfred/basic_file_syste/charlie/test-data/DR1_project_resources:/opt/project_resources
+  -B /media/alfred/basic_file_syste/charlie/test-data/pf_species_resources:/opt/species_resources
+  -B /home/alfred/big_data/miptools_tutorial/wrangled_by_sample:/opt/data
+  -B /media/alfred/basic_file_syste/charlie/test-data_outputs/v0.3:/opt/analysis
+  -B /home/charlie/miptools_analysis/MIPTools-0.4.0/src:/opt/src
+  --app jupyter"
+printshellcmds: True
+cores: 16
+keep-going: True
+rerun-incomplete: True
+use-conda: True
+latency-wait: 60
+#keep-incomplete: True
+#restart-times: 3
