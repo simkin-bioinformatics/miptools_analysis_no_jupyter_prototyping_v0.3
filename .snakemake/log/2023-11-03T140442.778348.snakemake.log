@@ -1,0 +1,44 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job            count    min threads    max threads
+-----------  -------  -------------  -------------
+all                1              1              1
+copy_params        1              1              1
+total              2              1              1
+
+Select jobs to execute...
+
+[Fri Nov  3 14:04:43 2023]
+rule copy_params:
+    input: generate_contigs.smk, run_freebayes.smk, miptools_analysis_no_jupyter.yaml, singularity_profile, scripts
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/generate_contigs.smk, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/run_freebayes.smk, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/miptools_analysis_no_jupyter.yaml, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/singularity_profile, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/scripts
+    jobid: 2
+    reason: Updated input files: scripts
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes
+
+
+		cp generate_contigs.smk /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/generate_contigs.smk
+		cp run_freebayes.smk /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/run_freebayes.smk
+		cp miptools_analysis_no_jupyter.yaml /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/miptools_analysis_no_jupyter.yaml
+		cp -r singularity_profile /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/singularity_profile
+		cp -r scripts /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/scripts
+		
+[Fri Nov  3 14:04:44 2023]
+Finished job 2.
+1 of 2 steps (50%) done
+Select jobs to execute...
+
+[Fri Nov  3 14:04:44 2023]
+localrule all:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/freebayes_command_dict.yaml, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/generate_contigs.smk
+    jobid: 0
+    reason: Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/generate_contigs_and_run_freebayes/generate_contigs.smk
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 14:04:44 2023]
+Finished job 0.
+2 of 2 steps (100%) done
+Complete log: .snakemake/log/2023-11-03T140442.778348.snakemake.log

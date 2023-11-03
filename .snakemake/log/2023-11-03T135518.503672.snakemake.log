@@ -1,0 +1,119 @@
+Building DAG of jobs...
+Using shell: /usr/bin/bash
+Provided cores: 16
+Rules claiming more threads will be scaled down.
+Job stats:
+job                      count    min threads    max threads
+---------------------  -------  -------------  -------------
+all                          1              1              1
+copy_params                  1              1              1
+graph_barcodes               1              1              1
+make_repool_table            1              1              1
+map_haplotypes               1              1              1
+modify_ozkan_settings        1              1              1
+parse_info_file              1              1              1
+total                        7              1              1
+
+Select jobs to execute...
+
+[Fri Nov  3 13:55:18 2023]
+rule copy_params:
+    input: check_run_stats.smk, miptools_analysis_no_jupyter.yaml, singularity_profile, scripts
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/check_run_stats.smk, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/miptools_analysis_no_jupyter.yaml, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/singularity_profile, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/scripts
+    jobid: 1
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/check_run_stats.smk
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+
+		cp check_run_stats.smk /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/check_run_stats.smk
+		cp miptools_analysis_no_jupyter.yaml /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/miptools_analysis_no_jupyter.yaml
+		cp -r singularity_profile /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/singularity_profile
+		cp -r scripts /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/scripts
+		
+
+[Fri Nov  3 13:55:19 2023]
+rule modify_ozkan_settings:
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/settings.txt
+    jobid: 5
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/settings.txt
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+[Fri Nov  3 13:55:19 2023]
+Finished job 1.
+1 of 7 steps (14%) done
+python /home/charlie/simkin_bioinformatics_git/miptools_analysis_no_jupyter_prototyping_v0.3/.snakemake/scripts/tmp_uy7fa_g.modify_ozkan_settings.py
+Activating singularity image /media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif
+[Fri Nov  3 13:55:23 2023]
+Finished job 5.
+2 of 7 steps (29%) done
+Select jobs to execute...
+
+[Fri Nov  3 13:55:23 2023]
+rule parse_info_file:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/settings.txt
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/data.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/samples.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/unique_haplotypes.csv
+    jobid: 4
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/unique_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/samples.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/data.tsv; Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/settings.txt
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+python /home/charlie/simkin_bioinformatics_git/miptools_analysis_no_jupyter_prototyping_v0.3/.snakemake/scripts/tmp3_ii9y7n.parse_info_file.py
+Activating singularity image /media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif
+[Fri Nov  3 13:55:25 2023]
+Finished job 4.
+3 of 7 steps (43%) done
+Select jobs to execute...
+
+[Fri Nov  3 13:55:25 2023]
+rule map_haplotypes:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/data.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/samples.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/unique_haplotypes.csv
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/haplotypes.fq, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/haplotypes_bwa.sam, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/aligned_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/all_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/mapped_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/offtarget_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_meta.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/haplotype_counts.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/sample_summary.csv
+    jobid: 3
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_meta.csv; Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/unique_haplotypes.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/samples.tsv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/data.tsv
+    resources: tmpdir=/tmp, mem_mb=200000, mem_mib=190735, time_min=4320, nodes=20, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+python /home/charlie/simkin_bioinformatics_git/miptools_analysis_no_jupyter_prototyping_v0.3/.snakemake/scripts/tmppfwoguoy.map_haplotypes.py
+Activating singularity image /media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif
+[Fri Nov  3 13:55:28 2023]
+Finished job 3.
+4 of 7 steps (57%) done
+Select jobs to execute...
+
+[Fri Nov  3 13:55:28 2023]
+rule make_repool_table:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_meta.csv
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/repool.csv
+    jobid: 2
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/repool.csv; Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_meta.csv
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+[Fri Nov  3 13:55:28 2023]
+rule graph_barcodes:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv
+    output: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/umi_heatmap.html
+    jobid: 6
+    reason: Missing output files: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/umi_heatmap.html; Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv
+    resources: tmpdir=/tmp, log_dir=/media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats
+
+python /home/charlie/simkin_bioinformatics_git/miptools_analysis_no_jupyter_prototyping_v0.3/.snakemake/scripts/tmp4984prxp.make_repool_table.py
+python /home/charlie/simkin_bioinformatics_git/miptools_analysis_no_jupyter_prototyping_v0.3/.snakemake/scripts/tmp4gwln0xi.graph_barcodes.py
+Activating singularity image /media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif
+Activating singularity image /media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif
+[Fri Nov  3 13:55:30 2023]
+Finished job 2.
+5 of 7 steps (71%) done
+[Fri Nov  3 13:55:32 2023]
+Finished job 6.
+6 of 7 steps (86%) done
+Select jobs to execute...
+
+[Fri Nov  3 13:55:32 2023]
+localrule all:
+    input: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/check_run_stats.smk, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/repool.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/umi_heatmap.html
+    jobid: 0
+    reason: Input files updated by another job: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/run_settings/check_run_stats/check_run_stats.smk, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/barcode_counts.csv, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/umi_heatmap.html, /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3/repool.csv
+    resources: tmpdir=/tmp
+
+[Fri Nov  3 13:55:32 2023]
+Finished job 0.
+7 of 7 steps (100%) done
+Complete log: .snakemake/log/2023-11-03T135518.503672.snakemake.log
