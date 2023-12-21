@@ -1,6 +1,6 @@
 import subprocess
 sys.path.append("/opt/src")
-import mip_functions_freebayes_call_edit as mip
+#import mip_functions_freebayes_call_edit as mip
 
 freebayes_command_dict = snakemake.params.freebayes_command_dict
 

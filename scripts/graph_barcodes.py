@@ -1,6 +1,6 @@
 import sys
 sys.path.append("/opt/src")
-import mip_functions_freebayes_call_edit as mip
+#import mip_functions_freebayes_call_edit as mip
 import pandas as pd
 import matplotlib.pyplot as plt
 import os

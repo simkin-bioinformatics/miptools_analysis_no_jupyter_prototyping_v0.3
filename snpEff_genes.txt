@@ -1,92 +1,92 @@
 # The following table is formatted as tab separated values. 
-#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_conservative_inframe_deletion	variants_effect_conservative_inframe_insertion	variants_effect_disruptive_inframe_deletion	variants_effect_disruptive_inframe_insertion	variants_effect_downstream_gene_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
-PF3D7_0106200	PF3D7_0106200	PF3D7_0106200.1	protein_coding	0	0	6	0	0	0	0	0	0	0	0	6
-PF3D7_0106300	PF3D7_0106300	PF3D7_0106300.1	protein_coding	0	6	0	0	0	0	0	0	0	6	0	0
-PF3D7_0106400	PF3D7_0106400	PF3D7_0106400.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_0417100	PF3D7_0417100	PF3D7_0417100.1	protein_coding	0	0	6	0	0	0	0	0	0	0	0	6
-PF3D7_0417200	PF3D7_0417200	PF3D7_0417200.1	protein_coding	0	6	0	0	0	0	0	0	0	6	0	0
-PF3D7_0417300	PF3D7_0417300	PF3D7_0417300.1	protein_coding	0	0	6	0	0	0	0	6	0	0	0	0
-PF3D7_0522900	PF3D7_0522900	PF3D7_0522900.1	protein_coding	0	0	3	0	0	0	0	3	0	0	0	0
-PF3D7_0523000	PF3D7_0523000	PF3D7_0523000.1	protein_coding	0	6	0	0	0	0	0	0	0	6	0	0
-PF3D7_0523100	PF3D7_0523100	PF3D7_0523100.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0
-PF3D7_0523200	PF3D7_0523200	PF3D7_0523200.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	1
-PF3D7_0708900	PF3D7_0708900	PF3D7_0708900.1	protein_coding	0	0	16	0	0	0	0	0	0	0	0	16
-PF3D7_0709000	PF3D7_0709000	PF3D7_0709000.1	protein_coding	0	11	20	0	0	0	0	0	20	11	0	0
-PF3D7_0709050	PF3D7_0709050	PF3D7_0709050.1	snoRNA	0	0	31	0	0	0	0	31	0	0	0	0
-PF3D7_0709100	PF3D7_0709100	PF3D7_0709100.1	protein_coding	0	0	31	0	0	0	0	0	0	0	0	31
-PF3D7_0720700	PF3D7_0720700	PF3D7_0720700.1	protein_coding	0	2	0	0	0	0	0	0	0	2	0	0
-PF3D7_0720800	PF3D7_0720800	PF3D7_0720800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_0720900	PF3D7_0720900	PF3D7_0720900.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_0810600	PF3D7_0810600	PF3D7_0810600.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0
-PF3D7_0810700	PF3D7_0810700	PF3D7_0810700.1	protein_coding	0	0	8	0	0	0	0	0	0	0	0	8
-PF3D7_0810800	PF3D7_0810800	PF3D7_0810800.1	protein_coding	0	8	0	0	0	0	0	0	0	8	0	0
-PF3D7_0810900	PF3D7_0810900	PF3D7_0810900.1	protein_coding	0	0	8	0	0	0	0	8	0	0	0	0
-PF3D7_0810900	PF3D7_0810900	PF3D7_0810900.2	protein_coding	0	0	8	0	0	0	0	8	0	0	0	0
-PF3D7_0811000	PF3D7_0811000	PF3D7_0811000.1	protein_coding	0	0	8	0	0	0	0	0	0	0	0	8
-PF3D7_1012700	PF3D7_1012700	PF3D7_1012700.1	protein_coding	0	5	0	0	0	2	1	0	0	2	0	0
-PF3D7_1012800	PF3D7_1012800	PF3D7_1012800.1	protein_coding	0	0	5	0	0	0	0	0	0	0	0	5
-PF3D7_1317900	PF3D7_1317900	PF3D7_1317900.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	1
-PF3D7_1318000	PF3D7_1318000	PF3D7_1318000.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	1
-PF3D7_1318100	PF3D7_1318100	PF3D7_1318100.1	protein_coding	0	1	0	0	0	0	0	0	0	1	0	0
-PF3D7_1318200	PF3D7_1318200	PF3D7_1318200.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	1
-PF3D7_1322500	PF3D7_1322500	PF3D7_1322500.1	protein_coding	0	0	2	0	0	0	0	2	0	0	0	0
-PF3D7_1322600	PF3D7_1322600	PF3D7_1322600.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1322700	PF3D7_1322700	PF3D7_1322700.1	protein_coding	0	2	0	1	0	0	0	0	0	1	0	0
-PF3D7_1322800	PF3D7_1322800	PF3D7_1322800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1322900	PF3D7_1322900	PF3D7_1322900.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1343500	PF3D7_1343500	PF3D7_1343500.1	protein_coding	0	0	27	0	0	0	0	27	0	0	0	0
-PF3D7_1343600	PF3D7_1343600	PF3D7_1343600.1	protein_coding	0	0	45	0	0	0	0	0	0	0	0	45
-PF3D7_1343700	PF3D7_1343700	PF3D7_1343700.1	protein_coding	0	12	33	1	1	0	0	18	0	10	0	15
-PF3D7_1343800	PF3D7_1343800	PF3D7_1343800.1	protein_coding	0	0	21	0	0	0	0	21	0	0	0	0
-PF3D7_1447800	PF3D7_1447800	PF3D7_1447800.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0
-PF3D7_1447900	PF3D7_1447900	PF3D7_1447900.1	protein_coding	1	3	0	0	0	0	0	0	0	3	1	0
-PF3D7_1448000	PF3D7_1448000	PF3D7_1448000.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0
-PF3D7_1451200	PF3D7_1451200	PF3D7_1451200.1	protein_coding	1	0	0	0	0	0	0	0	0	0	1	0
-PF3D7_1460700	PF3D7_1460700	PF3D7_1460700.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1460800	PF3D7_1460800	PF3D7_1460800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1460900	PF3D7_1460900	PF3D7_1460900.1	protein_coding	0	1	1	0	0	0	0	0	1	1	0	0
-PF3D7_1460900	PF3D7_1460900	PF3D7_1460900.2	protein_coding	0	1	1	0	0	0	0	0	1	1	0	0
-PF3D7_1461000	PF3D7_1461000	PF3D7_1461000.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-PF3D7_1461100	PF3D7_1461100	PF3D7_1461100.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	2
-mal_mito_1	mal_mito_1	mal_mito_1:mRNA	protein_coding	0	0	7	0	0	0	0	0	0	0	0	7
-mal_mito_2	mal_mito_2	mal_mito_2:mRNA	protein_coding	0	0	7	0	0	0	0	7	0	0	0	0
-mal_mito_3	mal_mito_3	mal_mito_3:mRNA	protein_coding	1	6	0	0	0	0	0	0	0	6	1	0
-mal_mito_RNA19	mal_mito_RNA19	mal_mito_RNA19:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_10	mal_rna_10	mal_rna_10:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_11	mal_rna_11	mal_rna_11:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-mal_rna_12	mal_rna_12	mal_rna_12:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_13	mal_rna_13	mal_rna_13:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_14	mal_rna_14	mal_rna_14:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_15	mal_rna_15	mal_rna_15:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_17	mal_rna_17	mal_rna_17:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_18	mal_rna_18	mal_rna_18:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_19	mal_rna_19	mal_rna_19:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_8	mal_rna_8	mal_rna_8:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-mal_rna_9	mal_rna_9	mal_rna_9:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_SSUB	malmito_SSUB	malmito_SSUB:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_1	malmito_rna_1	malmito_rna_1:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_10	malmito_rna_10	malmito_rna_10:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_15	malmito_rna_15	malmito_rna_15:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_16	malmito_rna_16	malmito_rna_16:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_17	malmito_rna_17	malmito_rna_17:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_20	malmito_rna_20	malmito_rna_20:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_21	malmito_rna_21	malmito_rna_21:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_23	malmito_rna_23	malmito_rna_23.1	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_24	malmito_rna_24	malmito_rna_24.1	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_25	malmito_rna_25	malmito_rna_25.1	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_26	malmito_rna_26	malmito_rna_26.1	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_27	malmito_rna_27	malmito_rna_27.1	rRNA	0	0	7	0	0	0	0	1	0	0	0	6
-malmito_rna_9	malmito_rna_9	malmito_rna_9:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_LSUC	malmito_rna_LSUC	malmito_rna_LSUC:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_LSUF	malmito_rna_LSUF	malmito_rna_LSUF:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_LSUG	malmito_rna_LSUG	malmito_rna_LSUG:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA11	malmito_rna_RNA11	malmito_rna_RNA11:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_RNA12	malmito_rna_RNA12	malmito_rna_RNA12:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA14	malmito_rna_RNA14	malmito_rna_RNA14:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_RNA18	malmito_rna_RNA18	malmito_rna_RNA18:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA22	malmito_rna_RNA22	malmito_rna_RNA22:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_RNA4	malmito_rna_RNA4	malmito_rna_RNA4:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA5	malmito_rna_RNA5	malmito_rna_RNA5:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA6	malmito_rna_RNA6	malmito_rna_RNA6:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	7
-malmito_rna_RNA7	malmito_rna_RNA7	malmito_rna_RNA7:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
-malmito_rna_SSUF	malmito_rna_SSUF	malmito_rna_SSUF:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0
+#GeneName	GeneId	TranscriptId	BioType	variants_impact_LOW	variants_impact_MODERATE	variants_impact_MODIFIER	variants_effect_conservative_inframe_deletion	variants_effect_conservative_inframe_insertion	variants_effect_disruptive_inframe_deletion	variants_effect_disruptive_inframe_insertion	variants_effect_downstream_gene_variant	variants_effect_initiator_codon_variant	variants_effect_intron_variant	variants_effect_missense_variant	variants_effect_synonymous_variant	variants_effect_upstream_gene_variant
+PF3D7_0106200	PF3D7_0106200	PF3D7_0106200.1	protein_coding	0	0	6	0	0	0	0	0	0	0	0	0	6
+PF3D7_0106300	PF3D7_0106300	PF3D7_0106300.1	protein_coding	0	6	0	0	0	0	0	0	0	0	6	0	0
+PF3D7_0106400	PF3D7_0106400	PF3D7_0106400.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_0417100	PF3D7_0417100	PF3D7_0417100.1	protein_coding	0	0	6	0	0	0	0	0	0	0	0	0	6
+PF3D7_0417200	PF3D7_0417200	PF3D7_0417200.1	protein_coding	0	6	0	0	0	0	0	0	0	0	6	0	0
+PF3D7_0417300	PF3D7_0417300	PF3D7_0417300.1	protein_coding	0	0	6	0	0	0	0	6	0	0	0	0	0
+PF3D7_0522900	PF3D7_0522900	PF3D7_0522900.1	protein_coding	0	0	3	0	0	0	0	3	0	0	0	0	0
+PF3D7_0523000	PF3D7_0523000	PF3D7_0523000.1	protein_coding	0	6	0	0	0	0	0	0	0	0	6	0	0
+PF3D7_0523100	PF3D7_0523100	PF3D7_0523100.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0	0
+PF3D7_0523200	PF3D7_0523200	PF3D7_0523200.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	0	1
+PF3D7_0708900	PF3D7_0708900	PF3D7_0708900.1	protein_coding	0	0	17	0	0	0	0	0	0	0	0	0	17
+PF3D7_0709000	PF3D7_0709000	PF3D7_0709000.1	protein_coding	0	11	21	0	0	0	0	0	0	21	11	0	0
+PF3D7_0709050	PF3D7_0709050	PF3D7_0709050.1	snoRNA	0	0	32	0	0	0	0	32	0	0	0	0	0
+PF3D7_0709100	PF3D7_0709100	PF3D7_0709100.1	protein_coding	0	0	32	0	0	0	0	0	0	0	0	0	32
+PF3D7_0720700	PF3D7_0720700	PF3D7_0720700.1	protein_coding	0	2	0	0	0	0	0	0	0	0	2	0	0
+PF3D7_0720800	PF3D7_0720800	PF3D7_0720800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_0720900	PF3D7_0720900	PF3D7_0720900.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_0810600	PF3D7_0810600	PF3D7_0810600.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0	0
+PF3D7_0810700	PF3D7_0810700	PF3D7_0810700.1	protein_coding	0	0	8	0	0	0	0	0	0	0	0	0	8
+PF3D7_0810800	PF3D7_0810800	PF3D7_0810800.1	protein_coding	0	8	0	0	0	0	0	0	0	0	8	0	0
+PF3D7_0810900	PF3D7_0810900	PF3D7_0810900.1	protein_coding	0	0	8	0	0	0	0	8	0	0	0	0	0
+PF3D7_0810900	PF3D7_0810900	PF3D7_0810900.2	protein_coding	0	0	8	0	0	0	0	8	0	0	0	0	0
+PF3D7_0811000	PF3D7_0811000	PF3D7_0811000.1	protein_coding	0	0	8	0	0	0	0	0	0	0	0	0	8
+PF3D7_1012700	PF3D7_1012700	PF3D7_1012700.1	protein_coding	0	5	0	0	0	2	1	0	0	0	2	0	0
+PF3D7_1012800	PF3D7_1012800	PF3D7_1012800.1	protein_coding	0	0	5	0	0	0	0	0	0	0	0	0	5
+PF3D7_1317900	PF3D7_1317900	PF3D7_1317900.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	0	1
+PF3D7_1318000	PF3D7_1318000	PF3D7_1318000.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	0	1
+PF3D7_1318100	PF3D7_1318100	PF3D7_1318100.1	protein_coding	0	1	0	0	0	0	0	0	0	0	1	0	0
+PF3D7_1318200	PF3D7_1318200	PF3D7_1318200.1	protein_coding	0	0	1	0	0	0	0	0	0	0	0	0	1
+PF3D7_1322500	PF3D7_1322500	PF3D7_1322500.1	protein_coding	0	0	2	0	0	0	0	2	0	0	0	0	0
+PF3D7_1322600	PF3D7_1322600	PF3D7_1322600.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1322700	PF3D7_1322700	PF3D7_1322700.1	protein_coding	0	2	0	1	0	0	0	0	0	0	1	0	0
+PF3D7_1322800	PF3D7_1322800	PF3D7_1322800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1322900	PF3D7_1322900	PF3D7_1322900.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1343500	PF3D7_1343500	PF3D7_1343500.1	protein_coding	0	0	44	0	0	0	0	44	0	0	0	0	0
+PF3D7_1343600	PF3D7_1343600	PF3D7_1343600.1	protein_coding	0	0	65	0	0	0	0	0	0	0	0	0	65
+PF3D7_1343700	PF3D7_1343700	PF3D7_1343700.1	protein_coding	1	12	52	1	1	0	0	35	1	0	10	0	17
+PF3D7_1343800	PF3D7_1343800	PF3D7_1343800.1	protein_coding	0	0	24	0	0	0	0	24	0	0	0	0	0
+PF3D7_1447800	PF3D7_1447800	PF3D7_1447800.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0	0
+PF3D7_1447900	PF3D7_1447900	PF3D7_1447900.1	protein_coding	1	3	0	0	0	0	0	0	0	0	3	1	0
+PF3D7_1448000	PF3D7_1448000	PF3D7_1448000.1	protein_coding	0	0	4	0	0	0	0	4	0	0	0	0	0
+PF3D7_1451200	PF3D7_1451200	PF3D7_1451200.1	protein_coding	1	0	0	0	0	0	0	0	0	0	0	1	0
+PF3D7_1460700	PF3D7_1460700	PF3D7_1460700.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1460800	PF3D7_1460800	PF3D7_1460800.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1460900	PF3D7_1460900	PF3D7_1460900.1	protein_coding	0	1	1	0	0	0	0	0	0	1	1	0	0
+PF3D7_1460900	PF3D7_1460900	PF3D7_1460900.2	protein_coding	0	1	1	0	0	0	0	0	0	1	1	0	0
+PF3D7_1461000	PF3D7_1461000	PF3D7_1461000.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+PF3D7_1461100	PF3D7_1461100	PF3D7_1461100.1	protein_coding	0	0	2	0	0	0	0	0	0	0	0	0	2
+mal_mito_1	mal_mito_1	mal_mito_1:mRNA	protein_coding	0	0	7	0	0	0	0	0	0	0	0	0	7
+mal_mito_2	mal_mito_2	mal_mito_2:mRNA	protein_coding	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_mito_3	mal_mito_3	mal_mito_3:mRNA	protein_coding	1	6	0	0	0	0	0	0	0	0	6	1	0
+mal_mito_RNA19	mal_mito_RNA19	mal_mito_RNA19:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_10	mal_rna_10	mal_rna_10:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_11	mal_rna_11	mal_rna_11:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+mal_rna_12	mal_rna_12	mal_rna_12:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_13	mal_rna_13	mal_rna_13:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_14	mal_rna_14	mal_rna_14:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_15	mal_rna_15	mal_rna_15:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_17	mal_rna_17	mal_rna_17:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_18	mal_rna_18	mal_rna_18:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_19	mal_rna_19	mal_rna_19:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_8	mal_rna_8	mal_rna_8:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+mal_rna_9	mal_rna_9	mal_rna_9:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_SSUB	malmito_SSUB	malmito_SSUB:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_1	malmito_rna_1	malmito_rna_1:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_10	malmito_rna_10	malmito_rna_10:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_15	malmito_rna_15	malmito_rna_15:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_16	malmito_rna_16	malmito_rna_16:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_17	malmito_rna_17	malmito_rna_17:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_20	malmito_rna_20	malmito_rna_20:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_21	malmito_rna_21	malmito_rna_21:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_23	malmito_rna_23	malmito_rna_23.1	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_24	malmito_rna_24	malmito_rna_24.1	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_25	malmito_rna_25	malmito_rna_25.1	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_26	malmito_rna_26	malmito_rna_26.1	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_27	malmito_rna_27	malmito_rna_27.1	rRNA	0	0	7	0	0	0	0	1	0	0	0	0	6
+malmito_rna_9	malmito_rna_9	malmito_rna_9:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_LSUC	malmito_rna_LSUC	malmito_rna_LSUC:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_LSUF	malmito_rna_LSUF	malmito_rna_LSUF:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_LSUG	malmito_rna_LSUG	malmito_rna_LSUG:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA11	malmito_rna_RNA11	malmito_rna_RNA11:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_RNA12	malmito_rna_RNA12	malmito_rna_RNA12:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA14	malmito_rna_RNA14	malmito_rna_RNA14:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_RNA18	malmito_rna_RNA18	malmito_rna_RNA18:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA22	malmito_rna_RNA22	malmito_rna_RNA22:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_RNA4	malmito_rna_RNA4	malmito_rna_RNA4:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA5	malmito_rna_RNA5	malmito_rna_RNA5:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA6	malmito_rna_RNA6	malmito_rna_RNA6:rRNA	rRNA	0	0	7	0	0	0	0	0	0	0	0	0	7
+malmito_rna_RNA7	malmito_rna_RNA7	malmito_rna_RNA7:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0
+malmito_rna_SSUF	malmito_rna_SSUF	malmito_rna_SSUF:rRNA	rRNA	0	0	7	0	0	0	0	7	0	0	0	0	0

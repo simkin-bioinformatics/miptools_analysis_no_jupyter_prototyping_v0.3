@@ -12,7 +12,7 @@ rule create_profile:
 		species_resources=config['species_resources'],
 		wrangler_directory=config['wrangler_directory'],
 		output_directory=config['output_directory'],
-		miptools_directory=config['miptools_directory']
+		#miptools_directory=config['miptools_directory']
 	output:
 		profile='singularity_profile/config.yaml'
 	script:

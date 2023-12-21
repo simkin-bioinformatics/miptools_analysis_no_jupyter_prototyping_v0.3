@@ -4,7 +4,7 @@ same, separated into data.tsv, samples.tsv, and unique_haplotypes.csv files.
 '''
 import sys
 sys.path.append("/opt/src")
-import mip_functions_freebayes_call_edit as mip
+import mip_functions as mip
 
 wdir=snakemake.params['wdir']+'/'
 settings_file=snakemake.params['settings_file']

@@ -7,7 +7,7 @@ Also, not sure why mipSetKey needs an empty entry added on to the existing list.
 import sys
 sys.path.append("/opt/src")
 import subprocess
-import mip_functions_freebayes_call_edit as mip
+import mip_functions as mip
 
 temp_settings_file = snakemake.params['template_settings']
 processor_number=snakemake.params['processor_number']

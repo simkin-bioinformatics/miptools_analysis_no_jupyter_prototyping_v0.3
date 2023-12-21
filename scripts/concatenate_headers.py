@@ -4,7 +4,7 @@ import gzip
 import os
 import yaml
 sys.path.append("/opt/src")
-import mip_functions_freebayes_call_edit as mip
+import mip_functions as mip
 
 contig_vcf_gz_paths_yaml = open("/opt/analysis/contig_vcf_gz_paths.yaml",'r')
 contig_vcf_gz_paths = yaml.safe_load(contig_vcf_gz_paths_yaml)

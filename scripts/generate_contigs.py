@@ -1,7 +1,7 @@
 import sys
 import yaml
 sys.path.append("/opt/src")
-import mip_functions_freebayes_call_edit as mip
+import mip_functions_freebayes_call_edit_v1 as mip
 
 
 wdir=snakemake.params['wdir']

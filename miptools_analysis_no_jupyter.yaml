@@ -4,14 +4,14 @@
 #and named sample_sheet.tsv. If you wrangled in some other way, rename your
 #sample sheet as sample_sheet.tsv and put it in the wrangler output folder
 
-project_resources: /media/alfred/basic_file_syste/charlie/miptools_data/test-data/DR1_project_resources
-species_resources: /media/alfred/basic_file_syste/charlie/miptools_data/test-data/pf_species_resources
-wrangler_directory: /media/alfred/basic_file_syste/charlie/miptools_data/test-data_wrangled_by_sample
-miptools_directory: /home/charlie/simkin_bioinformatics_git/MIPTools-0.4.0_custom/src
-wrangled_file: allInfo.tsv.gz
-output_directory: /media/alfred/basic_file_syste/charlie/test-data_outputs/miptools_analysis_no_jupyter_v0.3
-sif_file: '/media/alfred/basic_file_syste/charlie/miptools_data/miptools_dev_plus_bcl2fastq_23-08-25.sif'
-species: 'pf'
+project_resources: /home/charlie/resources/miptools_data/test-data/DR1_project_resources
+species_resources: /home/charlie/resources/miptools_data/test-data/pf_species_resources
+wrangler_directory: /home/charlie/projects/miptools_wrangler_charlie/wrangler_v1
+#miptools_directory: /home/charlie/projects/miptools_functions_custom/src
+wrangled_file: allInfo.tab.txt.gz
+output_directory: output_files
+sif_file: freebayes_call_edit
+species: pf
 
 #the probe sets here need to be an exact match for the values in your sample sheet - this needs to be fixed (what if some samples use one subset of probes and others use others)
 sample_groups: [['JJJ', 'DR1,VAR4']]
