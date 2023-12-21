@@ -1,3 +1,6 @@
 .DS_Store
 .snakemake
-io_files
+input_files
+output_files
+snpEff
+singularity_profile
