@@ -4,3 +4,5 @@ input_files
 output_files
 snpEff
 singularity_profile
+.cache
+
