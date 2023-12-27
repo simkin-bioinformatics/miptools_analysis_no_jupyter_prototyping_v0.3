@@ -58,6 +58,7 @@ rule generate_contigs:
 		#targets_index=output_folder+'/targets.vcf.gz.tbi',
 		#targets_vcf=output_folder+'/targets.vcf.gz'
 	params:
+		targets_file=config['target_aa_annotation'],
 		freebayes_settings=config['freebayes_settings'],
 		wdir='/opt/analysis',
 		settings_file='settings.txt'

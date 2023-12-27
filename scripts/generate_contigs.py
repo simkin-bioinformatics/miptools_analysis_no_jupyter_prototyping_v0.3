@@ -7,6 +7,8 @@ import mip_functions_freebayes_call_edit_v1 as mip
 wdir=snakemake.params['wdir']
 settings_file=snakemake.params['settings_file']
 options=snakemake.params['freebayes_settings']
+targets_file=snakemake.params.targets_file
+
 settings = mip.get_analysis_settings(wdir+'/'+settings_file)
 freebayes_command_dict_yaml = open('/opt/analysis/freebayes_command_dict.yaml','w')
 contig_vcf_gz_paths_yaml = open('/opt/analysis/contig_vcf_gz_paths.yaml','w')
@@ -15,7 +17,6 @@ verbose=True
 fastq_dir="/opt/analysis/padded_fastqs"
 bam_dir="/opt/analysis/padded_bams"
 vcf_file="/opt/analysis/variants.vcf.gz"
-targets_file="/opt/project_resources/targets.tsv"
 errors_file="/opt/analysis/freebayes_errors.txt"
 warnings_file="/opt/analysis/freebayes_warnings.txt"
 
