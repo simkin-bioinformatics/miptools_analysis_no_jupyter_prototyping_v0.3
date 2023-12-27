@@ -17,7 +17,7 @@ import subprocess
 subprocess.call(f'mkdir -p {log_folder}', shell=True)
 rule all:
 	input:
-		snakefile=log_folder+'/check_run_stats.smk',
+		snakefile=log_folder+'/02_check_run_stats.smk',
 		repool_csv=output_folder+'/repool.csv',
 		barcode_counts=output_folder+'/barcode_counts.csv',
 		output_graph=output_folder+'/umi_heatmap.html'
@@ -28,12 +28,12 @@ rule copy_params:
 	folder
 	'''
 	input:
-		snakefile='check_run_stats.smk',
+		snakefile='02_check_run_stats.smk',
 		configfile='miptools_analysis_no_jupyter.yaml',
 		profile='singularity_profile',
 		scripts='scripts'
 	output:
-		snakefile=log_folder+'/check_run_stats.smk',
+		snakefile=log_folder+'/02_check_run_stats.smk',
 		configfile=log_folder+'/miptools_analysis_no_jupyter.yaml',
 		profile=directory(log_folder+'/singularity_profile'),
 		scripts=directory(log_folder+'/scripts')

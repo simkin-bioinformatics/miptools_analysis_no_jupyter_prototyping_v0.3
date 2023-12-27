@@ -8,7 +8,7 @@ subprocess.call(f'mkdir {log_folder}', shell=True)
 rule all:
 	input:
 		freebayes_command_dict=output_folder+'/freebayes_command_dict.yaml',
-		snakefile=log_folder+'/generate_contigs.smk'
+		snakefile=log_folder+'/03_generate_contigs.smk'
 
 rule copy_params:
 	'''
@@ -16,14 +16,14 @@ rule copy_params:
 	folder
 	'''
 	input:
-		generate_contigs_snakefile='generate_contigs.smk',
-		run_freebayes_snakefile = 'run_freebayes.smk',
+		generate_contigs_snakefile='03_generate_contigs.smk',
+		run_freebayes_snakefile = '04_run_freebayes.smk',
 		configfile='miptools_analysis_no_jupyter.yaml',
 		profile='singularity_profile',
 		scripts='scripts'
 	output:
-		generate_contigs_snakefile=log_folder+'/generate_contigs.smk',
-		run_freebayes_snakefile = log_folder+'/run_freebayes.smk',
+		generate_contigs_snakefile=log_folder+'/03_generate_contigs.smk',
+		run_freebayes_snakefile = log_folder+'/04_run_freebayes.smk',
 		configfile=log_folder+'/miptools_analysis_no_jupyter.yaml',
 		profile=directory(log_folder+'/singularity_profile'),
 		scripts=directory(log_folder+'/scripts')
